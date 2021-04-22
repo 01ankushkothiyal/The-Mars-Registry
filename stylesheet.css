@@ -1,0 +1,462 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  .top {
+    width:100%;
+    height:80vh;
+    background:url(surface.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:white;
+  
+  }
+  .top .overlay{
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.411);
+    width:inherit;
+    height:inherit;
+    
+  }
+  .top header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right:10px;
+    padding-left:20px;
+    padding-top:10px;
+    height:50px;
+   
+  }
+  .top header .logo{
+    z-index: 1000;
+    font-size:12px;
+    border:3px solid white;
+    letter-spacing: 2px;;
+    
+    border-radius:4px;
+  }
+  
+  .top header .links ul a{
+    margin: 35px;
+    text-decoration: none;
+    color:white;
+    transition:all 0.3s ease-in-out;
+    z-index:1000;
+    
+  }
+
+  .top header .links ul a:hover{
+   color:blue;
+  }
+  .top header .links{
+    z-index: 1000;
+  }
+  .top .showcase{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    height:100vh;
+    width:100%;
+    font-size:100px;
+    z-index: 1000;
+  }
+  .top .showcase h1{
+      font-size:70px;
+      z-index:1000;
+      margin-bottom:50px;
+      
+  }
+  .top .showcase h2{
+    z-index: 1000;
+    margin-bottom: 50px;
+    font-size:30px;
+    margin-top:0px;
+  }
+  .top .showcase .btns{
+    width:15%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    z-index:11000;
+  }
+  .top .showcase .btns .btn1 ,.btn2{
+    width: 90px;
+    height:50px;
+    border-radius:10px;
+    border:3px solid blue;
+    background-color:transparent;
+    color:white;
+    transition: all 0.3s ease-in-out;
+    cursor:pointer;
+    margin-bottom: 240px;
+    z-index:11000;
+    font-size:17px;
+  } 
+    
+
+  .top .showcase .btns .btn1:hover {
+    color: blue;
+    background-color:white;
+    font-size:15px;
+  }
+  .top .showcase .btns .btn2:hover {
+    color: blue;
+    background-color:white;
+    font-size:15px;
+  }
+  .services  {
+    background:url(yes_mars.jpg);
+    background-size: cover;
+   
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    background-attachment: fixed;
+    
+    align-items:center;
+    flex-direction: column;
+    height:100vh;
+    width:100%;
+    font-size:20px;
+    z-index: 1000;
+  }
+    .services h1{
+      font-size:60px;
+      z-index:1000;
+     
+      padding-top:10px;
+      margin-bottom:20px;
+     
+    }
+    .services p{
+      font-size:25px;
+      z-index:11000;
+      justify-content: space-between;
+      text-align: center;
+      margin:20px;
+      line-height:30px;
+      color:white;
+      padding-top:30px;
+     
+    }
+     
+     .services  .btn{
+      width: 250px;
+      height:50px;
+      border-radius:10px;
+      border:5px solid blue;
+      background-color:transparent;
+      color:white;
+      transition: all 0.3s ease-in-out;
+      cursor:pointer;
+      margin-bottom: 40px;
+      margin-top: 30px;
+      font-size:20px;
+      
+     }
+     .btn:hover{
+      background-color:white;
+      color:blue;
+      font-size:18px;
+      cursor:pointer;
+      
+    }
+  
+  .about{
+    font-size:30px;
+    text-align:center;
+    margin-top:100px;
+    margin-bottom:100px;
+  }
+  .find{
+    text-align:center;
+    font-size:30px;
+    background:url(future_mars.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: space-around;
+    height:80vh;
+    width:100%;
+    
+
+  }
+  .find h1{
+    color:white;
+    margin:40px;
+    font-size:60px;
+    padding-top:60px;
+  
+  }
+  .find p{
+    font-size:30px;
+    margin-top:70px;
+    color:white;
+    padding-left:10px;
+
+  }
+  .find .switch1{
+    width: 250px;
+    height:50px;
+    border-radius:10px;
+    border:5px solid blue;
+    background-color:transparent;
+    color:white;
+    transition: all 0.3s ease-in-out;
+    cursor:pointer;
+    margin-bottom: 50px;
+   
+    font-size:25px;
+    margin-top:90px;
+   }
+   .switch1:hover{
+     background-color:white;
+    color:blue;
+    cursor:pointer;
+    font-size:23px;
+    
+  }
+   .main{
+    padding:50px 50px;
+    background:url(human_mars.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:92.5%;
+    height:120vh;
+    z-index:11000;
+    color:white;
+   }
+   .main .para1 span{
+     font-size:30px;
+     z-index:11000;
+   }
+   .main p{
+     font-size:25px;
+   }
+   .main h1{
+     margin-top:20px;
+     font-size:30px;
+   }
+   .main h2{
+     margin-bottom:20px;
+     font-size:30px;
+   }
+   .main h3{
+     font-size:50px;
+     margin:15px;
+     padding-top:20px;
+     padding-bottom:25px;;
+     border:5px solid white;
+     width:40%;
+     padding-left:7px;
+     text-align:center;
+     border-radius:10px;
+     background-color:transparent;
+     height:50px;
+     z-index:1000;
+   }
+   .main .para1 h3 span{
+     font-size:50px;
+   }
+   .main ul {
+     font-size:20px;
+     margin-top:20px;
+     line-height: 30px;
+     width:90%;
+   }
+   .main .switch2{
+    width: 150px;
+    height:50px;
+    border-radius:10px;
+    border:5px solid blue;
+    background-color:transparent;
+    justify-content: right;
+    float:right;
+    color:white;
+    transition: all 0.3s ease-in-out;
+    cursor:pointer;
+    margin-bottom: 100px;
+    font-size:20px;
+    margin-top:10px;
+    z-index:1000;
+
+   }
+   .switch2:hover{
+    background-color:white;
+    color:blue;
+    font-size:18px;
+    cursor:pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .main .switch3{
+    width: 250px;
+    height:50px;
+    border-radius:10px;
+    border:5px solid blue;
+    background-color:transparent;
+    color:black;
+    transition: all 0.3s ease-in-out;
+    cursor:pointer;
+    margin-left:500px;
+    text-align:center;
+    font-size:22px;
+    margin-top:90px;
+    z-index:11000;
+
+   }
+   .switch3:hover{
+    background-color:white;
+    color:blue;
+    font-size:20px;
+    cursor:pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  .info{
+    padding-left:40px;
+    width:97%;
+    height:80vh;
+    z-index:1000;
+    background:url(stars_mars.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    color:white;
+    
+  }
+  .info .section-title{
+    font-size:50px;
+    margin-top:20px;
+  }
+  .info .section-title h3{
+    margin-bottom:20px;
+    z-index:1000;
+  }
+  .info  p{
+    margin-top:10px;
+    z-index: 1000;
+    margin-bottom:10px;
+    padding-left:px;
+    
+    
+  }
+  input , textarea {
+    width:200px;
+    padding-left:20px;
+    margin-bottom:10px;
+    padding:10px;
+    font-size:18px;
+    border:3px solid green;
+    border-radius:7px;
+
+  }
+  .contact-submit{
+    cursor:pointer;
+    margin-top:5px;
+    z-index: 1000;
+  }
+  .contact-submit:hover {
+    background-color:green;
+    color:white;
+    font-size:20px;
+    letter-spacing: 2px;
+    transition: all 0.3s ease-in-out;
+  }
+  .footer{
+    background-color:black;
+    height:65vh;
+    width:100%;
+    color:white;
+    
+  }
+  .footer .inner{
+    
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    padding:25px;
+  }
+  .footer .footer1 h3{
+     font-size:45px;
+     letter-spacing: 3px;
+  }
+  .footer .footer2 h3{
+    color:orange;
+    margin-bottom:25px;
+    font-size:25px;
+  }
+  
+  .footer .footer3 h3{
+    color:orange;
+    margin-bottom:25px;
+    font-size:25px;
+  }
+  .footer .footer2 ul li{
+    list-style:none;
+    margin-bottom:15px;
+    cursor:pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .footer .footer3 ul li{
+    list-style:none;
+    margin-bottom:15px;
+    cursor:pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .footer .footer2 ul li:hover{
+    color:orange;
+    font-size:18px;
+  }
+  .footer .footer3 ul li:hover{
+    color:orange;
+    font-size:18px;
+
+  }
+ 
+ 
+  .copyright h2{
+   text-align:center;
+   padding:25px;
+   font-size:15px;
+   letter-spacing: 5px;
+  }
+ .copyright a{
+    text-align:center;
+    font-size:40px;
+    cursor:pointer;
+    text-decoration: none;
+    color:white;
+    
+   }
+   .copyright a:hover{
+    color:orange;
+    
+   }
+   .aboutme{
+     background:url(stars_mars.jpg);
+     text-align:center;
+     z-index:11000;
+     font-size:20px;
+     color:white;
+   }
+   .aboutme h3 {
+     padding-top:10px;
+   }
+   .aboutme p {
+     padding-top:10px;
+   }
+   .btnnn{
+     padding-top:10px;
+   }
